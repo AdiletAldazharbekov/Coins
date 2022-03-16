@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  background: #E5E5E5;
+}
+
+.myContainer {
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+}
+.myContainer .wrapper {
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 8px;
+  max-height: 593px;
+  overflow: scroll;
+}
+.myContainer .wrapper__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.myContainer .wrapper__header img {
+  width: 32px;
+  height: auto;
+}
+.myContainer .wrapper__header .header__title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #2C384F;
+}
+.myContainer .wrapper .listCoins {
+  padding: 0;
+}
+.myContainer .wrapper .listCoins .coins {
+  padding: 18px 0px;
+  margin: 0;
+  border-bottom: 1px dashed rgba(44, 56, 79, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.myContainer .wrapper .listCoins .coins__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.myContainer .wrapper .listCoins .coins__name {
+  width: 152px;
+  height: 40px;
+}
+.myContainer .wrapper .listCoins .coins__name p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2C384F;
+  margin: 0;
+}
+.myContainer .wrapper .listCoins .coins__name span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #899BBE;
+}
+.myContainer .wrapper .listCoins .coins__price {
+  width: 60px;
+  height: 40px;
+  text-align: end;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2C384F;
+}
